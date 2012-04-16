@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^new newroll.php
+RewriteRule ^rolls/(.*)$ roll.php?url=$1
